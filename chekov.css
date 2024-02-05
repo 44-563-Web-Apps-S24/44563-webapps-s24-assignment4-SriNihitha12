@@ -57,7 +57,7 @@ tr:hover {background-color:dodgerblue;}
 .YASHA:hover{
     font-size: medium;
     color: rgb(220, 42, 101);
-    text-shadow: 0 0 10px palevioletred;
+    text-shadow: 0 0 10px rgba(100, 149, 237, 0.8);
     border-style: dashed;
     border-radius: 5px;
 }
@@ -65,14 +65,14 @@ tr:hover {background-color:dodgerblue;}
 .LOPAKHIN:hover {
     font-size: medium;
     color: orange;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 10px rgba(100, 149, 237, 0.8);
     border-style: dashed;
     border-radius: 5px;}
 
 .TROFIMOV:hover {
     font-size: medium;
     color: cornflowerblue;
-    text-shadow: 0 0 10px cornflowerblue;
+    text-shadow: 0 0 10px rgba(100, 149, 237, 0.8); 
     border-style: dashed;
     border-radius: 5px;}
 
