@@ -6,26 +6,95 @@
 }
 .direction
 {
-    background-color:rgb(60, 60, 162);
+    background-color:rgb(153, 153, 223);
     color: black;
     font-size:small;
     font-family: 'Courier New', Courier, monospace;
 }
 .direction:hover
 {
-    color: blue;
-    background-color: rgb(31, 101, 101);
+    color: rgb(55, 55, 103);
+    background-color: rgb(7, 99, 99);
 }
 .name {
-    color: rgb(27, 230, 27);
+    color: rgb(29, 100, 114);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .YASHA {
     color: rgb(177, 39, 85);
 }
 .LOPAKHIN {
-    color:rgba(171, 116, 13, 0.842);
+    color:rgba(138, 94, 12, 0.842);
 }
 .TROFIMOV {
     color:rgb(21, 66, 151);
 }
+
+table {
+    border-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+th {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:darkblue;
+    color: white;
+    height: 50px;
+    background-color:rgb(222, 39, 91);
+}
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(32, 5, 132);
+    height: 30px;
+}
+
+tr:hover {background-color:dodgerblue;}
+
+.YASHA:hover{
+    font-size: medium;
+    color: rgb(220, 42, 101);
+    text-shadow: 0 0 10px palevioletred;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.LOPAKHIN:hover {
+    font-size: medium;
+    color: orange;
+    text-shadow: 0 0 10px orange;
+    border-style: dashed;
+    border-radius: 5px;}
+
+.TROFIMOV:hover {
+    font-size: medium;
+    color: cornflowerblue;
+    text-shadow: 0 0 10px cornflowerblue;
+    border-style: dashed;
+    border-radius: 5px;}
+
+    ul.navbar-horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+    ul.navbar-horizontal li {
+        float:left;
+        color:#000;
+        background-color:cyan;
+        }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:8px
+        }
+    ul.navbar-horizontal a:hover {  
+        background-color: rgb(26, 189, 151);
+        color:white;
+        }
+        
+
+
+    
